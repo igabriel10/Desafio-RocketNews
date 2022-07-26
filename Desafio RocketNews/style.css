@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  font-family: Spartan, Work Sans;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+  padding: 15px;
+}
+
+.logo svg {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 80px;
+}
+
+.paragraph h3 {
+  color: var(--title-color);
+}
+
+p {
+  margin-top: 7px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.inputt {
+  display: flex;
+  margin-top: 10px;
+}
+
+.inputt svg {
+  position: absolute;
+  left: 40%;
+  height: 35px;
+  width: 40px;
+  padding: 10px;
+  background-color: #8257e5;
+}
+
+input {
+  position: absolute;
+  border-left: 5px solid #04d361;
+  width: 40%;
+  height: 35px;
+}
+
+button {
+  margin-top: 80px;
+  border: 0px;
+  background-color: transparent;
+  color: #8257e5;
+}
+
+button:hover {
+  background-color: #a8a8a8;
+}
+
+button:focus {
+  color: #04d361;
+}
+
+.seta {
+  position: relative;
+  top: 4px;
+  color: #8257e5;
+  height: 15px;
+}
+
+.imagem img {
+  height: 100vh;
+  width: 60vw;
+}
